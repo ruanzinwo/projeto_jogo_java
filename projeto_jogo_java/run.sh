@@ -1,0 +1,1 @@
+javac -cp lib/* -d out $(find src -name "*.java"); java -cp out:lib/* jogo.Main
